@@ -39,11 +39,11 @@ header {
   background-size: cover;
 }
 
-nav /*.sticky*/ {
+nav.sticky {
   background: white;
-  /*position: fixed;
+  position: fixed;
   width: 100%;
-  top: 0;*/
+  top: 0;
 }
 
 nav ul {

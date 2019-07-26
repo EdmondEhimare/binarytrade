@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: #eff6fd;
+  margin: 0;
+}
+
+/* Links style */
+a:link,
+a:visited {
+  color: pink;
+}
+a:focus,
+a:hover,
+a:active {
+  color: maroon;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header styles */
+header {
+  color: white;
+  background: url(images/header.png) no-repeat center center;
+  /*background: green;*/
+  height: 30em;
+  text-align: center;
+  background-size: cover;
+}
+
+nav /*.sticky*/ {
+  background: white;
+  /*position: fixed;
+  width: 100%;
+  top: 0;*/
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  /*justify-content: right;*/
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  color: black;
+}
+
+li.logo {
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+li.logo a {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+}
+
+main {
+  padding: 2em;
+  margin: 2.5%;
+}
+
+div.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section.about {
+  background: #edeefc;
+  padding: 1.3em;
+  border: double 4px #2962ff;
+  border-radius: 25px;
+  margin: 1em;
+  width: 240px;
+  box-shadow: 0.8em 0.8em 0.6em gray;
+}
+
+section {
+  flex: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgb(33, 30, 51);
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.trading img {
+  height: 150px;
+  width: 150px;
+  margin: 2em;
+}
+
+section.service {
+  text-align: center;
+  justify-content: center;
+  background: #edeefc;
+  border: double 4px #2962ff;
+  border-radius: 25px;
+  margin: auto;
+  box-shadow: 0.8em 0.8em 0.6em gray;
+  width: 400px;
+}
+
+div.service {
+  border: double 4px lightblue;
+  border-radius: 25px;
+  margin: 1em;
+  border: double 4px #2962ff;
+}
+
+/* Price Plan Section */
+section.plan {
+  background: #94f7ff;
+  margin: 3em;
+  border-radius: 20px;
+  box-shadow: 0.8em 0.8em 0.6em gray;
+}
+
+.percent {
+  color: #0d47a1;
+  font-size: 3.2em;
+  font-weight: bold;
+  line-height: 0.2em;
+}
+
+.price {
+  color: #263238;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+fieldset {
+  box-shadow: 0.8em 0.8em 0.6em gray;
+}
+
+/* Footer styles */
+footer {
+  color: gray;
+  background: rgb(20, 20, 20);
+  text-align: center;
+  padding: 0.5em;
+}
